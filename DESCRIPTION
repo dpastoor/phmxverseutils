@@ -10,15 +10,14 @@ Description: Setup and qualify utility packages relevant to pharmacometrics
 Depends:
     R (>= 3.3.0)
 Imports:
-    dataviewer,
     decorator,
     devutils,
     courier,
     infuser,
     mrgformat,
-    rbabylon
+    rbabylon,
+    rsconnect
 Remotes:
-    dpastoor/dataviewer,
     dpastoor/decorator,
     dpastoor/devutils,
     dpastoor/courier,

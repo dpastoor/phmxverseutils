@@ -1,41 +1,29 @@
-Package: phmxversecore
+Package: phmxverseutils
 Type: Package
-Title: Setup and qualify packages key to pharmacometrics
-Version: 0.0.3
-Date: 2017-01-20 
+Title: Setup and qualify additional utility packages relevant to pharmacometrics
+Version: 0.0.1
+Date: 2017-02-10 
 Authors@R: c(
     person("Devin", "Pastoor",
     email = "devin.pastoor@gmail.com", role = c("aut", "cre")))
-Description: Setup and qualify packages key to pharmacometrics
+Description: Setup and qualify utility packages relevant to pharmacometrics
 Depends:
     R (>= 3.3.0)
 Imports:
-    anytime,
-    bookdown,
-    devtools,
-    future,
-    hms,
-    knitr,
-    magrittr,
-    mrgsolve,
-    overseer,
-    PKPDdatasets,
-    PKPDmisc,
-    Rcpp,
-    RcppArmadillo,
-    remotes,
-    roxygen2,
-    satchel,
-    tidyverse,
-    testthat
+    dataviewer,
+    decorator,
+    devutils,
+    courier,
+    infuser,
+    mrgformat,
+    rbabylon
 Remotes:
-    metrumresearchgroup/mrgsolve,
-    dpastoor/overseer,
-    dpastoor/satchel,
-    dpastoor/PKPDdatasets,
-    dpastoor/PKPDmisc
+    dpastoor/dataviewer,
+    dpastoor/decorator,
+    dpastoor/devutils,
+    dpastoor/courier,
+    dpastoor/mrgformat,
+    dpastoor/rbabylon
 License: MIT + file LICENSE
 VignetteBuilder: knitr
-RoxygenNote: 5.0.1
-Suggests: 
-    testthat
+RoxygenNote: 6.0.0
